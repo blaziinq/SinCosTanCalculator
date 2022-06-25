@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sine, Cosine, Tangent Calculator</title>
+
+    <script src="maths.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <!--Fonts
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Staatliches', cursive;
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Simple Trigonometry</h1>
+    </header>
+    <main>
+      <h1 class="text">Sine, Cosine, and Tangent</h1>
+      <p class="text">
+        By this point, I have repeated the above words at least 20 times.
+        <br />
+        Anyway, originally, I was going to do the manual calculations for said
+        concepts, but then I realised, that I was really bloody lazy, so I have
+        just used the built in javascript functions.
+      </p>
+      <div class="calc_container">
+        <form action="#" onsubmit="sin(); return false" class="calculator">
+          Sin(<input type="text" class="number_input" id="sin_input" />)<br />
+          <input type="submit" value="Work Out" class="input" />
+          <p class="text" id="sin_answer"></p>
+        </form>
+      </div>
+      <div class="calc_container">
+        <form action="#" onsubmit="cos(); return false" class="calculator">
+          Cos(<input type="text" class="number_input" id="cos_input" />)<br />
+          <input type="submit" value="Work Out" class="input" />
+          <p class="text" id="cos_answer"></p>
+        </form>
+      </div>
+      <div class="calc_container">
+        <form action="#" onsubmit="tan(); return false" class="calculator">
+          Tan(<input type="text" class="number_input" id="tan_input" />)<br />
+          <input type="submit" value="Work Out" class="input" />
+          <p class="text" id="tan_answer"></p>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

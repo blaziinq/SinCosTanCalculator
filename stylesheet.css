@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+header {
+  overflow: hidden;
+  background-color: rgb(145, 145, 145);
+}
+main {
+  overflow: hidden;
+}
+footer {
+  overflow: hidden;
+  background-color: rgb(218, 218, 227);
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  color: white;
+}
+.text {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+p.text {
+  font-size: 20px;
+}
+
+.calc_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  border: 1px solid black;
+  padding: 0px 50px 0px 50px;
+  margin: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+.number_input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+}
